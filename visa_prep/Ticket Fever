@@ -1,0 +1,7 @@
+s = int(input())
+for _ in range(0,s):
+    m,n =map(int,(input().split()))
+    if m>n:
+        print(m-n)
+    else:
+        print(0)
