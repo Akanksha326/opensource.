@@ -1,0 +1,6 @@
+I, J, K, x = map(int, input().split())
+
+if I + J >= x or I + K >= x or J + K >= x:
+    print("YES")
+else:
+    print("NO")
