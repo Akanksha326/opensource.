@@ -1,0 +1,5 @@
+n,r,p=map(int,input().split())
+if p%r==0:
+    print("YES")
+else:
+    print("NO")
