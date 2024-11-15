@@ -1,0 +1,9 @@
+n=int(input())
+b = str(abs(n))
+b=int(b[::-1])
+if n < 0:
+    b = -b
+if -2**31 <= b <= 2**31 - 1:
+    print(b)
+else:
+    print(0)
